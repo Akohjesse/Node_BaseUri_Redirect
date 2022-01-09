@@ -1,0 +1,14 @@
+{
+  "name": "baseuri_redirect_warriormammoth",
+  "version": "1.0.0",
+  "description": "A node app that routes to baseUri Image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
