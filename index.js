@@ -10,7 +10,7 @@ app.use(express.static('src'));
 app.get('/*', async (req,res ) =>{
     let file  = {
         image: "https://warriormammoth.mypinata.cloud/ipfs/QmSWAskx3AT5DnqkKk2fBFDF8mxk6gMNL31uiHXmZdkiw1",
-        description: "Warrior mammoth nft collection inspired by the tale of the warrior tammoth",
+        description: "Warrior mammoth nft collection inspired by the tale of the warrior mammoth",
         tokenId: req.url.substring(1),
         name: `Mammoth #${req.url.substring(1)}`
     }
